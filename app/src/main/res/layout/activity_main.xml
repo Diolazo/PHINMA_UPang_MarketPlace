@@ -16,7 +16,8 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/login_image" />
+        app:srcCompat="@drawable/login_image"
+        android:contentDescription="@string/todo" />
 
     <EditText
         android:id="@+id/Email_Login"
@@ -25,7 +26,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
-        android:hint="Email Address"
+        android:hint="@string/email_address"
         android:backgroundTint="@color/DarkGray"
         android:textColorHint="@color/black"
         android:textColor="@color/black"
@@ -34,7 +35,8 @@
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/Password_Login"
@@ -43,7 +45,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
-        android:hint="Password"
+        android:hint="@string/password"
         android:backgroundTint="@color/DarkGray"
         android:textColorHint="@color/black"
         android:padding="15dp"
@@ -51,7 +53,8 @@
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Email_Login" />
+        app:layout_constraintTop_toBottomOf="@+id/Email_Login"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/ForgotRedirect"
@@ -62,9 +65,9 @@
         android:layout_marginEnd="40dp"
         android:gravity="center"
         android:padding="5dp"
-        android:text="Forgot Password?"
+        android:text="@string/forgot_password"
         android:textColor="@color/DarkBlue"
-        android:textSize="18dp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Password_Login"/>
@@ -76,7 +79,7 @@
         android:layout_marginTop="25dp"
         android:layout_marginStart="110dp"
         android:layout_marginEnd="110dp"
-        android:text="Log In"
+        android:text="@string/log_in"
         android:textAllCaps="false"
         android:padding="12dp"
         android:textColor="@color/Red"
@@ -91,7 +94,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:text="or connect with"
+        android:text="@string/or_connect_with"
         android:textColor="@color/black"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
@@ -105,7 +108,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginHorizontal="50dp"
         android:paddingHorizontal="16dp"
-        android:text="Sign In With Gmail"
+        android:text="@string/sign_in_with_gmail"
         android:textAllCaps="false"
         android:textColor="@color/black"
         android:background="@drawable/bg_bttn_gmail"
@@ -122,7 +125,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="Don't have an account? Sign Up"
+        android:text="@string/don_t_have_an_account_sign_up"
         android:textColor="@color/black"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
