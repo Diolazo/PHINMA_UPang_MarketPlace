@@ -18,12 +18,8 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
-        app:srcCompat="@drawable/login_image"
+        app:srcCompat="@drawable/logo"
         android:contentDescription="@string/todo" />
-=======
-        app:srcCompat="@drawable/logo" />
->>>>>>> f5eb8a2 (New XML Layout and code for going into sign up page)
 
     <EditText
         android:id="@+id/Email_Login"
